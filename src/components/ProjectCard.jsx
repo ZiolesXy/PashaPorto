@@ -68,6 +68,20 @@ export function ProjectCard({ project, index = 0 }) {
   const StatusIcon = statusMeta.icon
   const isLive = project.status === 'live'
   const previewDisabled = !isLive || !previewHref
+  const renderPreview = (className, title) =>
+    thumbnailIsWebPreview ? (
+      <iframe
+        title={title}
+        src={previewImage}
+        className={className}
+      />
+    ) : (
+      <img
+        src={previewImage}
+        alt={title}
+        className={className}
+      />
+    )
 
   useEffect(() => {
     if (!open) return
@@ -102,18 +116,9 @@ export function ProjectCard({ project, index = 0 }) {
         className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-[28px] border border-[var(--border-color)] bg-[color:var(--surface-primary)/0.92] shadow-[0_18px_50px_var(--shadow-color)] transition duration-500 hover:-translate-y-2"
       >
         <div className="relative aspect-[4/3] overflow-hidden">
-          {thumbnailIsWebPreview ? (
-            <iframe
-              title={`${project.title} thumbnail preview`}
-              src={previewImage}
-              className="h-full w-full border-0 opacity-85 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
-            />
-          ) : (
-            <img
-              src={previewImage}
-              alt={`${project.title} thumbnail`}
-              className="h-full w-full object-cover opacity-85 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
-            />
+          {renderPreview(
+            'h-full w-full border-0 object-cover opacity-85 transition duration-700 group-hover:scale-105 group-hover:opacity-100',
+            `${project.title} thumbnail preview`,
           )}
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.04),rgba(0,0,0,0.66))]" />
           <div className="absolute inset-x-0 bottom-0 p-5">
@@ -200,11 +205,10 @@ export function ProjectCard({ project, index = 0 }) {
                   <X className="h-5 w-5" />
                 </button>
                 <div className="max-h-[90vh] overflow-y-auto">
-                  <img
-                    src={previewImage}
-                    alt={`${project.title} thumbnail`}
-                    className="h-64 w-full object-cover sm:h-80"
-                  />
+                  {renderPreview(
+                    'h-64 w-full border-0 object-cover sm:h-80',
+                    `${project.title} thumbnail`,
+                  )}
                   <div className="space-y-6 p-6 sm:p-8">
                     <div className="flex flex-wrap items-start justify-between gap-4">
                       <div className="space-y-2">

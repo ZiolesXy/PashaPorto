@@ -20,6 +20,17 @@
     "thumbnail": "/thumbnails/base-64.png"
   },
   {
+    "id": "bsr-calc",
+    "title": "BSR Calculator",
+    "description": "BSR Resource Planner is a React and TypeScript-based progress calculator application designed to optimize precise Character, Weapon, and Skill resource management. Built with an efficient Global State Management architecture and optimized business logic through memoized hooks, the application offers intelligent calculation features such as mixed material recommendations and a Total Planner for cumulative material requirement estimation. With support for Vite, Modular CSS, and a responsive UX for mobile and desktop, this project provides a fast, lightweight, and synchronous planning experience for users to manage their farming strategy.",
+    "stack": ["React", "Vite", "Tailwind", "JSON", "Capacitor"],
+    "status": "live",
+    "source": "https://github.com/ZiolesXy/bsr-calculator",
+    "linkproject": "https://bsr-calc.vercel.app",
+    "thumbnail": "https://bsr-calc.vercel.app",
+    "thumbnailType": "web"
+  },
+  {
     "id": "voca-store",
     "title": "Voca Store",
     "description": "Voca Plane is a robust full-stack flight booking application built with a modern architecture featuring a Go-powered backend and a Next.js frontend. The platform offers a seamless end-to-end travel experience, allowing users to search for flights, select specific seats through an interactive interface, and complete secure transactions integrated with the Midtrans payment gateway. Complementing the user-facing features is a comprehensive administrative dashboard that enables real-time management of airlines, flight schedules, airports, and promotional offers. By leveraging a high-performance tech stack including GORM, PostgreSQL, and TanStack Query, Voca Plane delivers a fast, reliable, and scalable solution for digital aviation commerce.",
@@ -28,16 +39,6 @@
     "source": "",
     "linkproject": "",
     "thumbnail": "/thumbnails/voca-store.png"
-  },
-  {
-    "id": "bsr-calc",
-    "title": "BSR Calculator",
-    "description": "BSR Resource Planner is a React and TypeScript-based progress calculator application designed to optimize precise Character, Weapon, and Skill resource management. Built with an efficient Global State Management architecture and optimized business logic through memoized hooks, the application offers intelligent calculation features such as mixed material recommendations and a Total Planner for cumulative material requirement estimation. With support for Vite, Modular CSS, and a responsive UX for mobile and desktop, this project provides a fast, lightweight, and synchronous planning experience for users to manage their farming strategy.",
-    "stack": ["React", "Vite", "Tailwind", "JSON", "Capacitor"],
-    "status": "coming-soon",
-    "source": "https://github.com/ZiolesXy/bsr-calculator",
-    "linkproject": "",
-    "thumbnail": ""
   },
   {
     "id": "clavis",
