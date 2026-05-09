@@ -1,4 +1,4 @@
-import profile from '../data/profile.json'
+import profile from '../data/profile.js'
 import { SectionHeading } from '../components/SectionHeading.jsx'
 
 export function ContactSection() {

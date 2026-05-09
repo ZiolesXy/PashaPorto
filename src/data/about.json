@@ -1,0 +1,22 @@
+{
+  "name": "Pasha Prabasakti",
+  "role": "Web Developer",
+  "headline": "Focused on scalable backend systems, data-driven architecture, and maintainable services. I care about consistency, performance, and code that remains reliable as systems grow.",
+  "summary": "I am a fresh graduate from vocational high school with a strong interest in software development. I focus on writing clean and efficient code while building applications that are simple, functional, and user-friendly. I enjoy learning modern web technologies and continuously improving my skills through hands-on projects.",
+  "care-about": "I care about designing robust backend systems with clear architecture and strong performance. I prioritize maintainability, efficient resource usage, and building APIs that scale without becoming complex or difficult to manage.",
+  "about": {
+    "eyebrow": "About",
+    "title": "Building scalable systems with a clean, practical approach."
+  },
+  "experience": [
+    {
+      "period": "Jan - Apr 2026",
+      "company": "PT. Delameta Bilano",
+      "role": "Software Development internship"
+    }
+  ],
+  "location": "Jakarta, Indonesia",
+  "availability": "Open for freelance and part-time opportunities",
+  "githubUsername": "ZiolesXy",
+  "stack": ["GO", "REST API", "PostgreSQL"]
+}

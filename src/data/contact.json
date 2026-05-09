@@ -1,0 +1,30 @@
+{
+  "email": "pashaprabasakti@gmail.com",
+  "spotifyPlaylistId": "5pGBbfvdr8NCnHHs08Cvyk?si=bb09eb3a2b37475d",
+  "socials": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/ZiolesXy",
+      "value": "github.com/ZiolesXy",
+      "icon": "github"
+    },
+    {
+      "label": "Discord",
+      "href": "https://discord.com/users/828456277666562099",
+      "value": "discord.com/users/828456277666562099",
+      "icon": "discord"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/pasha-prabasakti-60b7bb318",
+      "value": "linkedin.com/in/pasha-prabasakti",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:pashaprabasakti@gmail.com",
+      "value": "pashaprabasakti@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

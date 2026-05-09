@@ -2,6 +2,7 @@ import skills from '../data/skills.json'
 import { SkillCard } from '../components/SkillCard.jsx'
 import { SectionHeading } from '../components/SectionHeading.jsx'
 import { RevealSection } from '../components/RevealSection.jsx'
+import { navigateTo } from '../utils/navigate.js'
 
 export function SkillsSection() {
   const visibleSkills = skills.slice(0, 3)
@@ -19,6 +20,10 @@ export function SkillsSection() {
           {hasMoreThanRange ? (
             <a
               href="/skills"
+              onClick={(event) => {
+                event.preventDefault()
+                navigateTo('/skills')
+              }}
               className="inline-flex items-center gap-2 rounded-full border border-[var(--border-color)] px-5 py-3 text-sm font-medium text-[var(--text-primary)] transition hover:bg-[var(--surface-secondary)]"
             >
               See more

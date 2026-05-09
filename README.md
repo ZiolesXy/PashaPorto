@@ -4,11 +4,12 @@ A modern personal portfolio built with React, Vite, and Tailwind CSS.
 
 ## Overview
 
-This project presents selected work, technical skills, and contact information in a clean, responsive interface. It includes dedicated archive pages for projects and skills, with modal-based detail views for richer inspection.
+This project presents selected work, technical skills, experience, and contact information in a clean, responsive interface. It includes dedicated archive pages for projects and skills, with modal-based detail views for richer inspection.
 
 ## Key Features
 
 - Responsive home page with hero, about, skills, projects, contact, and footer sections
+- About section with experience timeline, GitHub language breakdown, and profile summary cards
 - Project archive page with:
   - first 3 projects shown on the home page
   - full project list on a dedicated page
@@ -20,6 +21,8 @@ This project presents selected work, technical skills, and contact information i
   - full skills list on a dedicated page
   - click-to-open skill detail modal
 - Mobile navigation dropdown
+- Spotify floating widget that stays active across route changes
+- Client-side page navigation for archive pages
 - Theme switcher
 
 ## Pages
@@ -43,6 +46,31 @@ src/
 ```
 
 ## Data Files
+
+Profile data is split into smaller files to keep the content easier to maintain:
+
+- [`src/data/about.json`](src/data/about.json)
+- [`src/data/contact.json`](src/data/contact.json)
+- [`src/data/footer.json`](src/data/footer.json)
+- [`src/data/profile.js`](src/data/profile.js) - aggregator used by sections that need combined profile data
+
+About data includes:
+
+- `eyebrow`
+- `title`
+- `experience` timeline entries
+- `summary`
+- `care-about`
+- `location`
+- `availability`
+- `githubUsername`
+- `stack`
+
+Contact data includes:
+
+- `email`
+- `spotifyPlaylistId`
+- `socials` with icon keys such as `github`, `linkedin`, `discord`, and `mail`
 
 ### Projects
 

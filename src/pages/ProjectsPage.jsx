@@ -4,6 +4,7 @@ import { RevealSection } from '../components/RevealSection.jsx'
 import { SectionHeading } from '../components/SectionHeading.jsx'
 import { StarBackground } from '../components/StarBackground.jsx'
 import { FooterSection } from '../sections/FooterSection.jsx'
+import { navigateTo } from '../utils/navigate.js'
 
 export function ProjectsPage() {
   return (
@@ -20,6 +21,10 @@ export function ProjectsPage() {
               />
               <a
                 href="/"
+                onClick={(event) => {
+                  event.preventDefault()
+                  navigateTo('/')
+                }}
                 className="inline-flex items-center gap-2 rounded-full border border-[var(--border-color)] px-5 py-3 text-sm font-medium text-[var(--text-primary)] transition hover:bg-[var(--surface-secondary)]"
               >
                 Back

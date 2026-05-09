@@ -1,0 +1,12 @@
+{
+  "intro": "Backend developer dari Jakarta yang fokus pada systems, API, dan database yang rapi serta mudah dirawat.",
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "focus": "Go, REST API, PostgreSQL, and maintainable service.",
+  "copyright": "All rights reserved."
+}

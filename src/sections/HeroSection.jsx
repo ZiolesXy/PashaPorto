@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Briefcase, Download, MousePointerClick } from 'lucide-react'
-import profile from '../data/profile.json'
+import profile from '../data/profile.js'
 
 const codeSnippets = [
   `import { Portfolio } from '${profile.name.toLowerCase().replace(/\s+/g, '')}.dev';`,
