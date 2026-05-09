@@ -72,6 +72,21 @@ function upsertCanonical(url) {
 }
 
 function buildStructuredData(seo) {
+  const webPage = {
+    '@type': seo.type,
+    '@id': `${seo.url}#webpage`,
+    url: seo.url,
+    name: seo.title,
+    description: seo.description,
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+    about: { '@id': `${SITE_URL}/#person` },
+    image: seo.image,
+  }
+
+  if (seo.type === 'ProfilePage') {
+    webPage.mainEntity = { '@id': `${SITE_URL}/#person` }
+  }
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -96,16 +111,7 @@ function buildStructuredData(seo) {
         inLanguage: 'en',
         author: { '@id': `${SITE_URL}/#person` },
       },
-      {
-        '@type': seo.type,
-        '@id': `${seo.url}#webpage`,
-        url: seo.url,
-        name: seo.title,
-        description: seo.description,
-        isPartOf: { '@id': `${SITE_URL}/#website` },
-        about: { '@id': `${SITE_URL}/#person` },
-        image: seo.image,
-      },
+      webPage,
     ],
   }
 }
