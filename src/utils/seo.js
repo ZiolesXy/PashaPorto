@@ -2,7 +2,7 @@ export const SITE_URL = 'https://www.pasha.euphyfve.com'
 
 const DEFAULT_DESCRIPTION =
   'Portfolio Pasha Prabasakti, web developer dari Jakarta yang fokus pada backend systems, REST API, PostgreSQL, dan aplikasi web yang maintainable.'
-const DEFAULT_IMAGE = `${SITE_URL}/og-image.svg`
+const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`
 
 const pages = {
   '/': {
