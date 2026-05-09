@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Backend",
+    "items": ["GO", "REST API", "API Design"]
+  },
+  {
+    "category": "Architecture",
+    "items": ["Service Architecture", "Data Modeling", "Modular Design", "Scalable Systems"]
+  },
+  {
+    "category": "Database",
+    "items": ["PostgreSQL", "Supabase", "Query Optimization", "Schema Design", "Data Integrity", "PostgreSQL", "Supabase", "Query Optimization", "Schema Design", "Data Integrity"]
+  },
+  {
+    "category": "Workflow",
+    "items": ["Performance", "Error Handling", "Logging", "Maintainable Code"]
+  }
+]

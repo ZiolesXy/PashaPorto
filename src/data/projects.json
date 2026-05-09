@@ -1,0 +1,32 @@
+[
+  {
+    "id": "game-online",
+    "title": "Fun Zone",
+    "description": "FunZone is a lightweight, web-based social gaming hub that bridges the gap between real-time community interaction and instant gameplay. Built with React, Supabase, and Vercel, it offers a seamless install-free experience where users can manage profiles, connect with friends, and engage in real-time chat while exploring a curated game catalog. It is designed to provide a secure and high-performance ecosystem for casual gamers to hang out and play together directly from any browser.",
+    "stack": ["React", "Json", "Vite", "Supabase"],
+    "status": "live",
+    "source": "https://github.com/ZiolesXy/game-online",
+    "linkproject": "https://fun-zone-rho.vercel.app",
+    "thumbnail": "/thumbnails/FunZone.svg"
+  },
+  {
+    "id": "base-64",
+    "title": "Base 64 Encode & Decode",
+    "description": "A React-based Base64 Encoder/Decoder with multiple security modes: Normal, password-protected Secondary, and key-based Secure mode using XOR encryption. Supports text conversion, file upload/download, and session management. Built with React, Vite, and Tailwind CSS, featuring a clean UI with clipboard, validation, and quick reset tools.",
+    "stack": ["React", "Tailwind", "JSON"],
+    "status": "live",
+    "source": "https://github.com/ZiolesXy/Base64_Test",
+    "linkproject": "https://base64-test.vercel.app",
+    "thumbnail": "/thumbnails/base-64.png"
+  },
+  {
+    "id": "bsr-calc",
+    "title": "BSR Calculator",
+    "description": "BSR Resource Planner is a React and TypeScript-based progress calculator application designed to optimize precise Character, Weapon, and Skill resource management. Built with an efficient Global State Management architecture and optimized business logic through memoized hooks, the application offers intelligent calculation features such as mixed material recommendations and a Total Planner for cumulative material requirement estimation. With support for Vite, Modular CSS, and a responsive UX for mobile and desktop, this project provides a fast, lightweight, and synchronous planning experience for users to manage their farming strategy.",
+    "stack": ["React", "Vite", "Tailwind", "JSON", "Capacitor"],
+    "status": "coming-soon",
+    "source": "https://github.com/ZiolesXy/bsr-calculator",
+    "linkproject": "",
+    "thumbnail": ""
+  }
+]
