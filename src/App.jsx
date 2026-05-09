@@ -5,6 +5,7 @@ import { SpotifyWidget } from './components/SpotifyWidget.jsx'
 import { HomePage } from './pages/HomePage.jsx'
 import { ProjectsPage } from './pages/ProjectsPage.jsx'
 import { SkillsPage } from './pages/SkillsPage.jsx'
+import { applySeo } from './utils/seo.js'
 
 export default function App() {
   const [path, setPath] = useState(window.location.pathname)
@@ -20,6 +21,10 @@ export default function App() {
     window.addEventListener('app:navigate', onNavigate)
     return () => window.removeEventListener('app:navigate', onNavigate)
   }, [])
+
+  useEffect(() => {
+    applySeo(path)
+  }, [path])
 
   return (
     <ThemeProvider>
