@@ -1,18 +1,46 @@
 [
   {
     "category": "Backend",
-    "items": ["GO", "REST API", "API Design"]
+    "items": [
+      "Go",
+      "REST API",
+      "API Design",
+      "Authentication (JWT)",
+      "Middleware",
+      "Input Validation"
+    ]
   },
   {
     "category": "Architecture",
-    "items": ["Service Architecture", "Data Modeling", "Modular Design", "Scalable Systems"]
+    "items": [
+      "Service Architecture",
+      "Modular Design",
+      "Scalable Systems",
+      "Clean Architecture",
+      "Separation of Concerns"
+    ]
   },
   {
     "category": "Database",
-    "items": ["PostgreSQL", "Supabase", "Query Optimization", "Schema Design", "Data Integrity", "PostgreSQL", "Supabase", "Query Optimization", "Schema Design", "Data Integrity"]
+    "items": [
+      "PostgreSQL",
+      "Supabase",
+      "Schema Design",
+      "Query Optimization",
+      "Indexing",
+      "Data Integrity",
+      "Transactions"
+    ]
   },
   {
     "category": "Workflow",
-    "items": ["Performance", "Error Handling", "Logging", "Maintainable Code"]
+    "items": [
+      "Performance Optimization",
+      "Error Handling",
+      "Logging",
+      "Debugging",
+      "Maintainable Code",
+      "Code Refactoring"
+    ]
   }
 ]

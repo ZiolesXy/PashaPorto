@@ -18,6 +18,12 @@ const STATUS_META = {
     icon: Clock3,
     className: 'bg-amber-400/80 text-white',
   },
+  draft: {
+    label: 'Coming Soon',
+    shortLabel: 'Draft',
+    icon: Clock3,
+    className: 'bg-sky-400/80 text-white',
+  },
   maintenance: {
     label: 'Maintenance',
     shortLabel: 'Maint',

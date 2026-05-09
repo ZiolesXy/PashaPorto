@@ -15,7 +15,7 @@ This project presents selected work, technical skills, experience, and contact i
   - full project list on a dedicated page
   - click-to-open project detail modal
   - thumbnail support for local images, image URLs, and web preview URLs
-  - status badges for `live`, `coming-soon`, `maintenance`, and `unavailable`
+  - status badges for `live`, `draft`, `coming-soon`, `maintenance`, and `unavailable`
 - Skills archive page with:
   - first 3 skills shown on the home page
   - full skills list on a dedicated page
@@ -96,6 +96,7 @@ Example structure:
 Supported `status` values:
 
 - `live`
+- `draft`
 - `coming-soon`
 - `maintenance`
 - `unavailable`
